@@ -1,0 +1,19 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+  display: flex;
+  background-color: aquamarine;
+  padding: 1.5rem;
+  justify-content: space-around;
+}
+
+nav a{
+  color:black;
+  padding: 1rem;
+}
+
+nav a.selected {
+  border: solid 1px black;
+}
